@@ -1,0 +1,24 @@
+.authentication {
+    display: flex;
+    padding: 12px;
+}
+
+.authentication .col-1,
+.authentication .col-2 {
+    flex-basis: 50%;
+}
+
+.authentication .col-2 {
+    margin-left: 12px;
+}
+
+@media (max-width: 500px) {
+    .authentication {
+        flex-direction: column;
+    }
+
+    .authentication .col-2 {
+        margin-left: 0;
+        margin-top: 12px;
+    }    
+}

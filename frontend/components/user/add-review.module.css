@@ -1,0 +1,37 @@
+.add-review {
+    padding: 8px;
+}
+
+.add-review .container {
+    width: 80%;
+    margin: auto;
+}
+
+.add-review .container input,
+.add-review .container textarea,
+.add-review .container button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: none;
+}
+
+.add-review .container .rating {
+    background-color: var(--color-background-secondary);
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-top: 6px;
+}
+
+.add-review .container .rating p {
+    margin-right: 4px;
+}
+
+.add-review .error-msg {
+    width: 80%;
+    margin: auto;
+    margin-top: 4px;
+    color: red;
+}

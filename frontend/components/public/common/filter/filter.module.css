@@ -1,0 +1,13 @@
+.filters {
+    background-color: var(--color-background-secondary);   
+    padding: 8px;
+}
+
+.filters .filter {
+    margin-top: 5px;
+}
+
+.filters .filter input {
+    margin-left: 6px;
+    margin-right: 6px;
+}

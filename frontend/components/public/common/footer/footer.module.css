@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--color-background-header);
+    display: flex;
+    padding: 24px;
+}
+
+.footer a {
+    display: block;
+}
+
+.footer .col-1,
+.footer .col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer .col-1 a,
+.footer .col-2 a {
+    margin-top: 6px;
+}
+
+@media (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .col-2 {
+        margin-top: 12px;
+    }
+}

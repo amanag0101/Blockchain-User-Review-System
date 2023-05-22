@@ -1,0 +1,33 @@
+.itembox {
+    padding: 8px;
+}
+
+.itembox img {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.itembox .item {
+    margin-top: 8px;
+}
+
+.itembox .item p {
+    text-align: center;
+    padding: 4px;
+}
+
+.itembox .item .product_name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.itembox .item .link a {
+    color: var(--color-blue);
+    text-align: center;
+}
+
+.itembox .item .link a:hover {
+    text-decoration: underline;
+}
